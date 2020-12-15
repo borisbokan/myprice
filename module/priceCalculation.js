@@ -5,7 +5,7 @@
  * @version 1.0
  * 
  * @example const price = new MyPrice(140.65, 35.0); //MyPrice(Purchase price, Interest percent)
- * @example price.getPrice()
+ * @example price.getPrice()... +
  *
  */
 export class MyPrice {
@@ -30,14 +30,17 @@ export class MyPrice {
     this._myPrice = this._purchasePrice + this._sumInterest;
   }
 
-  /**
-   * Display of the purchase price from the supplier
-   */
+
+  /** 
+   * Display of the purchase price from the supplier 
+   * */
   getPurchasePrice() {
     let result = this._purchasePrice ? this._purchasePrice : 0.0;
     return result;
   }
-
+  /**
+   * Returns the value of the entered percentage of earnings
+   */
   getInterestPercent() {
     let result = this._interestPercent ? this._interestPercent : 0.0;
     return result;
