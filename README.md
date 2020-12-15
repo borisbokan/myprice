@@ -9,7 +9,7 @@ Instructions and explanation coming soon. In the meantime, you can try in the in
 +getMethos()...
 
 #  2. Constructor (basic price$ + my interest% + discount% + tax%)
-<samp><b>const</b> priceshop = new <b>MyShopPrice</b>(140.65, 35.0, 3.00, 18);</samp>
+<samp><b>const</b> priceshop = new <b>MyShopPrice</b>(140.65, 35.0, 3.00, 18.00);</samp>
 +getMethos()...
 
 #  Example in HTML and developer console
