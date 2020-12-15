@@ -1,6 +1,12 @@
 import { MyPrice } from '../module/priceCalculation.js';
 /**
+ * 
  * @author Boris Bokan
+ * @description Class that calculates final selling prices. Includes discount and state tax.
+ * Extends the MyPrice class
+ * 
+ * @version 1.0
+ * 
  */
 
 export class MyShopPrice extends MyPrice {
@@ -33,14 +39,16 @@ export class MyShopPrice extends MyPrice {
         this._sumValueOfTaxes = (this._priceWithDiscount * this._stateTax) / 100
         this._sumEndPrice = this._priceWithDiscount + this._sumValueOfTaxes;
     }
-
-    getPriceWithDscount() { return this._priceWithDiscount; }
+    //Getting price without discount
+    getPriceWithDiscount() { return this._priceWithDiscount; }
+    //Obtaining value of calculation taxes in percent %
     getValueOfTax() { returnthis._stateTax };
+    //Obtaining the sum of the total value from taxes
     getSumOfTaxes() { return this._sumValueOfTaxes }
+    //Obtaining the sum of the total value of the discount
     getSumOfDiscount() { return this._sumValueOfDiscount; }
+    //Obtaining value of discount in percent %
     getDiscountPercent() { return this._discounPercent };
-
-
     //Whole price . Price with earn percent, diskount and tax
     getEndPrice() { return this._sumEndPrice; }
 

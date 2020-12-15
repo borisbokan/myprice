@@ -20,7 +20,7 @@ console.log(`
     ------------------------------------------------------------
     My discount percent: ${priceshop.getDiscountPercent().toFixed(2)} % ⤵
     Discount value: ${priceshop.getSumOfDiscount().toFixed(2)}
-    Price with discount: ${priceshop.getPriceWithDscount().toFixed(2)}
+    Price with discount: ${priceshop.getPriceWithDiscount().toFixed(2)}
     -------------------------------------------------------------
     Value of tax percent: ${priceshop.getSumOfTaxes().toFixed(2)} % ⬆
     My end price is: 💥 ${priceshop.getEndPrice().toFixed(2)} 💥`);
@@ -44,7 +44,7 @@ My price without discounts and taxes: ${priceshop.getPrice().toFixed(2)}
 ------------------------------------------------------------
     My discount percent: ${priceshop.getDiscountPercent().toFixed(2)} % ⤵
 Discount value: ${priceshop.getSumOfDiscount().toFixed(2)}
-Price with discount: ${priceshop.getPriceWithDscount().toFixed(2)}
+Price with discount: ${priceshop.getPriceWithDiscount().toFixed(2)}
 -------------------------------------------------------------
     Value of tax percent: ${priceshop.getSumOfTaxes().toFixed(2)} % ⬆
 My end price is: 💥 ${priceshop.getEndPrice().toFixed(2)} 💥`;

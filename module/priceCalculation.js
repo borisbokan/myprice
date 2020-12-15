@@ -1,8 +1,12 @@
 /**
+ *
  * @author Boris Bokan
- * @class 
- *  
+ * @description A class that calculates a basic selling price based on a percentage
+ * @version 1.0
  * 
+ * @example const price = new MyPrice(140.65, 35.0); //MyPrice(Purchase price, Interest percent)
+ * @example price.getPrice()
+ *
  */
 export class MyPrice {
   _purchaseprice = 0.00;
