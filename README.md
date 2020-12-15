@@ -16,4 +16,4 @@ Instructions and explanation coming soon. In the meantime, you can try in the in
 
 🦈
 
-<img src="myprice test image.png" alt="Girl in a jacket" width="500" height="600">
+<img src="myprice test image.png" alt="Girl in a jacket" width="800" height="600">
