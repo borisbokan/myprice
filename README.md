@@ -12,4 +12,8 @@ Instructions and explanation coming soon. In the meantime, you can try in the in
 <samp><b>const</b> priceshop = new <b>MyShopPrice</b>(140.65, 35.0, 3.00, 18);</samp>
 +getMethos()...
 
+
+
 🦈
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
