@@ -9,7 +9,7 @@ const price = new MyPrice(140.65, 35.0);
 +getMethos()...
 
 # 2. Constructor (basic price$ + my interest% + discount% + tax%)
-<code>const priceshop = new MyShopPrice(140.65, 35.0, 3.00, 18);</code>
+<code><b>const</b> priceshop = new <b>MyShopPrice,</b>(140.65, 35.0, 3.00, 18);</code>
 +getMethos()...
 
 🦈
