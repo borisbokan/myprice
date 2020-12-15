@@ -5,7 +5,7 @@ Sales price calculation
 Instructions and explanation coming soon. In the meantime, you can try in the index.html file and dev console
 
 #  1. Constructor function (purchase price$, percentage of earnings%)
-<code><b>const</b> price = new <b>MyPrice</b>(140.65, 35.0);</code>
+<samp><b>const</b> price = new <b>MyPrice</b>(140.65, 35.0);</samp>
 +getMethos()...
 
 #  2. Constructor (basic price$ + my interest% + discount% + tax%)
